@@ -1,7 +1,6 @@
-.container__big-card {
-  border: 2px solid white;
-  width: 600px;
-  height: 500px; 
+.container__big-card { 
+  width: 300px;
+  height: 500px;
   margin: 0 20px; 
 
   display: flex;
@@ -12,14 +11,14 @@
 }
 
 .big-card__photo > img {
-  width: 100%;
-  min-width: 600px;
+  width: 100%; 
+  min-width: 300px;
 }
 
 .big-card__title > h1 {
   font-size: 20px; 
 }
 
-.big-card__description > p {
+.big-card__description > p > a {
   color: grey;
 }
